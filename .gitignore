@@ -1,0 +1,5 @@
+.lock.json
+.swp
+sandbox/
+tmp/
+temp/

@@ -1,0 +1,51 @@
+{
+  "revision_id": "107b334371e5021c04489b493c1ecc6fcac5dbbbdc4c4f2a7a9bb070a0ccc953",
+  "name": "chef-solo-demolet",
+  "run_list": [
+    "recipe[chef_cookbook_demolet::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "chef_cookbook_demolet": {
+      "version": "0.0.0",
+      "identifier": "f5beb646c9a4e321d9cb13af3143c10f610063a9",
+      "dotted_decimal_identifier": "69171059375056099.9528140463288643.212271796085673",
+      "source": ".",
+      "cache_key": null,
+      "scm_info": {
+        "scm": "git",
+        "remote": "git@github.com:demolets/chef-cookbook-demolet.git",
+        "revision": "b1d3ab896137ef6869683a80f3d836daf1773856",
+        "working_tree_clean": false,
+        "published": true,
+        "synchronized_remote_branches": [
+          "origin/master"
+        ]
+      },
+      "source_options": {
+        "path": "."
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "chef_cookbook_demolet",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "chef_cookbook_demolet (0.0.0)": [
+
+      ]
+    }
+  }
+}
